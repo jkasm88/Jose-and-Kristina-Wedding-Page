@@ -9,15 +9,20 @@ body {
 
 /*-------header----*/
 
-.menu-color-story {
-    color: #fafafa;
+.logo {
+    background: url("../images/image1.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    width: 100vw;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
-.menu-color-details {
+span {
     color: #fafafa;
-    
+    font-size: 30px;
 }
 
-.menu-color-rsvp {
-    color: #fafafa;
-}
