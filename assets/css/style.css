@@ -1,7 +1,3 @@
-header {
-    margin: 0;
-}
-
 body {
     background-color: #cd8360;
     font-family: 'Satisfy', cursive, sans-serif;
@@ -21,10 +17,6 @@ body {
     -webkit-transition: all .5s ease-in-out;
 }
 
-span {
-    color: #fafafa;
-    font-size: 30px;
-}
 
 
 /*-------section----*/
