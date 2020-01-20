@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Jose and Kristina's Wedding Website</title>
 </head>
@@ -34,33 +35,36 @@
                 </ul>
             </div>
         </nav>
-     </header>
-    <main class="container">
-        <div class="row">
-            <div class="our-story">
-                <h2>Our Story</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-4 col-lg-4">
-                <div class="story-p">
-                    <p>Jose and Kristina first met when they decided to be part of the Fall08 Long Beach Theta Delta Beta Xi class. Their love of music, traveling, food and the show "Friends" brought them closer together and it was not long after that they decided to start dating.</p>
-                        <a href="assets/images/xiclass.JPG"><img src="assets/images/xiclass.JPG" width="140"></a>
-                    </div>
-            </div>
-            <div class="col-12 col-md-4 col-lg-4">
-                <div class="story-p">
-                    <p>Over the next 10 years, their love for each other grew more and more. There were plenty of vegas trips, coachellas, and wild nights that turned into lovable memories. Jose and Kristina shared common friends who they considered like family and who now are part of the bridal party. With the support of their family and friends, the love between them grew even deeper. Jose knew from the start that Kristina was the one he wanted to spend the rest of his life with. During one of their trips, Jose asked Kristina to marry him with their family and friends surrounding them.</p> 
-                        <a href="assets/images/story1.jpg"><img src="assets/images/story1.jpg" width="140"></a>
+    </header>
+    <main>
+        <section class="container">
+            <article class="row">
+                <div class="col-6 story-p">
+                    <p>Jose and Kristina first met when they decided to be part of the Fall08 Long Beach Theta Delta Beta Xi class. Their love of music, traveling, food and the show "Friends" brought them closer together and it was not long after that they decided to start dating.Over the next 10 years, their love for each other grew more and more. There were plenty of vegas trips, coachellas, and wild nights that turned into lovable memories. </p>
                 </div>
-            </div>
-            <div class="col-12 col-md-4 col-lg-4">
-                <div class="story-p">
-                    <p>As they begin the next chapter of their journey, both Jose and Kristina would love to celebrate this joyous occassion with their loved ones. Cheers to the lovely couple!</p> 
-                        <a href="assets/images/story2.JPG"><img src="assets/images/story2.JPG" width="140"></a>
+                <div class="col-6">
+                    <img src="assets/images/story1.JPG" width="260">
                 </div>
-            </div>           
-        </div>
+            </article>
+            <article class="row">
+                <div class="col-6">
+                    <img src="assets/images/story2.JPG" width="260">
+                </div>
+                <div class="col-6 story-p">
+                    <p>Jose and Kristina shared common friends who they considered like family and who now are part of the bridal party. With the support of their family and friends, the love between them grew even deeper. Jose knew from the start that Kristina was the one he wanted to spend the rest of his life with. During one of their trips, Jose asked Kristina to marry him with their family and friends surrounding them. As they begin the next chapter of their journey, both Jose and Kristina would love to celebrate this joyous occassion with their loved ones. Cheers to the lovely couple! </p>
+                </div>
+            </article>           
+        </section>
+        <section class="gallery-container">
+            <figure>
+                <a data-fancybox="gallery" href="assets/images/image3.JPG" data-caption="2009">
+                    <img src="assets/images/thumbnails/s-image3.JPG" class="gallery-img"></a>
+            </figure>
+            <figure>
+                <a data-fancybox="gallery" href="assets/images/image4.JPG" data-caption="2009">
+                    <img src="assets/images/thumbnails/s-image4.JPG" class="gallery-img"></a>
+            </figure>
+        </section>
     </main>
     <footer class="container-fluid">
         <div id="footer-details" class="row">
@@ -102,8 +106,9 @@
                 </ul>
             </div>
         </div>
-        <script type="text/javascript" src="assets/js/index.js">
-        </script>
+        <script type="text/javascript" src="assets/js/index.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
     </footer>
 </body>
 </html>
