@@ -36,46 +36,60 @@
         </nav>
      </header>
     <section class="container" id="rsvp-pg">
-        <div class="col">
             <h3 class="rsvp-heading uppercase text-center">Are you attending?! Let the us know!</h3>
-            <div class="center-form">
-                 <form id="rsvp-form">
-                    <div class="row contact">
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="exampleInputName" name="Name" placeholder="Name" required>
-                        </div>
+            <form>
+                 <div class="form-group">
+                    <label for="exampleFormControlInput1">Who the heck are you?</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="First and Last Name">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Are you attending?</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                    <option selected>Choose...</option>
+                    <option>Yes</option>
+                    <option>No</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="exampleFormControlSelect1">Bringing a guest?</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option selected>Choose...</option>
+                            <option>Yes</option>
+                            <option>No</option>
+                        </select>
                     </div>
-                    <div class="row contact">
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="exampleInputEmail" name="Email" placeholder="Email" required>
-                        </div>
+                    <div class="form-group col-md-6">
+                        <label for="exampleFormControlInput1">Guest Name?</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="First and Last Name">
                     </div>
-                    <div class="row contact">
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="exampleInputEmail" name="Email" placeholder="Email" required>
-                        </div>
-                    </div>
-                    <div class="row contact">
-                        <div class="form-group message">
-                            <textarea class="form-control" name="message" rows="5" placeholder="Message for the love birds!" required></textarea>
-                        </div>
-                    </div>
-                    <button type="submit" class="btn btn-rsvp">Send RSVP</button>
-                 </form>
-            </div>
-        </div>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message for the Future Mr. Mrs. Morales?</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Say something Nice!"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-dark">Send it!</button>
+            </form>
     </section>
     <footer class="container-fluid">
         <div id="footer-details" class="row">
-            <div class="col-sm-4">
-                <h5 class="uppercase">RSVP</h5>
-                    <p class="inline-block">HERE</p>
+             <div class="col-sm-6">
+                <h5 class="uppercase">Questions? Contact:</h5>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Mr. Mikee Morales
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Phone: 562-882-9275</a>
+                        <a class="dropdown-item" href="#">Email: J.MikeeMorales@gmail.com</a>
+                    </div>
+                </div>
             </div>
-             <div class="col-sm-4">
-                <h5 class="uppercase">Questions?</h5>
-                    <p class="inline-block">Contact Mr. Mikee Morales</p>
-            </div>
-            <div class="col-sm-4">
+            <div class="col-sm-6">
                 <h5 class="uppercase">Follow the lovely couple!</h5>
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
@@ -105,8 +119,11 @@
                 </ul>
             </div>
         </div>
-        <script type="text/javascript" src="assets/js/index.js">
-        </script>
+        <script type="text/javascript" src="assets/js/index.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+        <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     </footer>
 </body>
 </html>
