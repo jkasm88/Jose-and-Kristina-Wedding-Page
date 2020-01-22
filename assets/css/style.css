@@ -17,6 +17,26 @@ body {
     -webkit-transition: all .5s ease-in-out;
 }
 
+/*-------main-------*/
+
+.story-section {
+    background-image: url("../images/bg1.JPG");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    filter: grayscale(100%);
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 75vh;
+    z-index: -10;
+}
+
+#story-image {
+}
+
 /*-------footer-------*/
 
 
