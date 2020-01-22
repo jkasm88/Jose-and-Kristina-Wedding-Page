@@ -20,9 +20,7 @@ body {
 /*-------main-------*/
 
 .story-section {
-    background-image: url("../images/bg1.JPG");
-    background-position: center center;
-    background-repeat: no-repeat;
+    background: url("../images/bg1.JPG") center center no-repeat;
     background-size: cover;
     width: 100%;
     overflow: hidden;
@@ -34,11 +32,19 @@ body {
     z-index: -10;
 }
 
-#story-image {
+.gallery-container {
+    background: #fff;
+}
+
+.btn-rsvp {
+    background: #000000;
 }
 
 /*-------footer-------*/
 
+footer {
+    background: #fff;
+}
 
 /*-------fancy box----*/
 
