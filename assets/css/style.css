@@ -40,6 +40,35 @@ body {
     background: #000000;
 }
 
+#rsvp-pg {
+    background: url("../images/image10.jpeg") center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 75vh;
+    z-index: -10;
+}
+
+#details-info {
+    background: url("../images/image11.JPG") center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    filter: grayscale(100%);
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 75vh;
+    z-index: -10;
+}
+
+.bridal-party {
+    background: #fff;
+}
+
 /*-------footer-------*/
 
 footer {
