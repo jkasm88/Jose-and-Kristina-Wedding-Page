@@ -1,13 +1,13 @@
 body {
     background-color: #cd8360;
-    font-family: 'Satisfy', cursive, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 /*-------header----*/
 
 .logo {
     background: url("../images/image1.jpeg");
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
@@ -15,6 +15,10 @@ body {
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+}
+
+.nav-link {
+    font-size: 1.5em;
 }
 
 /*-------main-------*/
@@ -32,12 +36,18 @@ body {
     z-index: -10;
 }
 
+.story-p {
+    color: #ffff;
+    font-weight: bold;
+}
+
 .gallery-container {
     background: #fff;
 }
 
 .btn-rsvp {
     background: #000000;
+    color: #ffff;
 }
 
 #rsvp-pg {
@@ -65,8 +75,26 @@ body {
     z-index: -10;
 }
 
+#details-left {
+    color: #000000;
+    font-weight: bold;  
+}
+
+#details-right {
+    color: #000000;
+    font-weight: bold;  
+}
+
 .bridal-party {
     background: #fff;
+}
+
+.rsvp-heading {
+    color: #ffff;
+}
+
+label {
+    color: #ffff;
 }
 
 /*-------footer-------*/
