@@ -97,6 +97,13 @@ label {
     color: #ffff;
 }
 
+.registry {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    color: #ffff;
+}
+
 /*-------footer-------*/
 
 footer {
