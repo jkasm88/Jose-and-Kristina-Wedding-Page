@@ -10,7 +10,7 @@ body {
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
+    min-height: 580px;
     width: 100%;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -36,6 +36,19 @@ body {
     z-index: -10;
 }
 
+.story-section-2 {
+    background: url("../images/bg2.JPG") top center no-repeat;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    filter: grayscale(100%);
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 45vh;
+    z-index: -10;
+}
+
 #story-section-overlay {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.5);
@@ -49,6 +62,11 @@ body {
 .story-p {
     color: #ffff;
     font-weight: bold;
+    width: 50%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    overflow: scroll;
 }
 
 .gallery-container {
@@ -58,6 +76,7 @@ body {
 .btn-rsvp {
     background: #000000;
     color: #ffff;
+    padding: 10px 0;
 }
 
 #rsvp-pg {
