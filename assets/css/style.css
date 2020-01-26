@@ -66,7 +66,7 @@ body {
     position: absolute;
     top: 25%;
     left: 25%;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 .gallery-container {
@@ -104,13 +104,23 @@ body {
     z-index: -10;
 }
 
+.details-info-overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -5;
+}
+
 #details-left {
-    color: #000000;
+    color: #ffff;
     font-weight: bold;  
 }
 
 #details-right {
-    color: #000000;
+    color: #ffff;
     font-weight: bold;  
 }
 
