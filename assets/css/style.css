@@ -33,7 +33,6 @@ body {
     top: 0;
     bottom: 0;
     height: 45vh;
-    z-index: -10;
 }
 
 .story-section-2 {
@@ -46,17 +45,6 @@ body {
     top: 0;
     bottom: 0;
     height: 45vh;
-    z-index: -10;
-}
-
-#story-section-overlay {
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.5);
-    top: 0;
-    bottom: 0;
-    height: 100%;
-    width: 100%;
-    z-index: -5;
 }
 
 .story-p {
@@ -81,27 +69,16 @@ body {
     top: 0;
     bottom: 0;
     height: 45vh;
-    z-index: -10;
-}
-
-.details-info-overlay {
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.5);
-    top: 0;
-    bottom: 0;
-    height: 100%;
-    width: 100%;
-    z-index: -5;
 }
 
 #details-left {
-    color: #ffff;
+    color: #000000;
     font-weight: bold;  
     padding-top: 25px;
 }
 
 #details-right {
-    color: #ffff;
+    color: #000000;
     font-weight: bold;  
     padding-top: 25px;
 }
