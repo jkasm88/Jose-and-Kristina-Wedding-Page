@@ -27,7 +27,7 @@ Each page is designed for a single purpose so that it is eye pleasing and user f
 
 ### Skeleton
 
-[Wireframes]()
+[Wireframes](https://github.com/jkasm88/Wedding-Page-Milestone-project-1/tree/master/assets/wireframes)
 
 ### Skeleton
 
@@ -48,44 +48,34 @@ The black/white/grey colorscheme was chosen to create a simple and modern look.
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+The main goal of the site was to provide our family, friends, and guests information about us, details about the wedding, and how to rsvp and to view the registry. 
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+Our story page -  The title of the page is below and reads "Jose & Kristina" to indicate to the user that this site is all about us. Below is a navigation bar to the other pages. Depending on which page your on, the nav link color will be black. Below, is the first paragraph story of us followed by 3 photos that can be clicked to be enlarged. The second paragraph follows along with 3 addtional pictures. I've added an rsvp button which is navigate the user to the rsvp page for quick access. In the footer, there is a contact information for any guests that have questions along with the social links for guest to view.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+Details page - The title and  navigation bar is provided at the top. The section provide details about the the wedding ceremony and reception and google maps is embedded for directions. The next section has photos of the bridal party which users can click to enlarge. An rsvp button is provided to quick access to the rsvp page so users don't need to scroll to the top. At the bottom is the same contact and socials links provided in the main page.
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+RSVP page - The form allows users to rsvp themselves and their guest. They can also write a message to the couple. Name and email is required to submit, you'll receive a message that you are unable to submit if missing. Below is a link to the registry, once you click the gift icon it will open another browser tab to the registry.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+Social links - All links will open a new tab and all have been manually tested to ensure they work.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+The site was tested across multiple browsers (Google Chrome, Safari, Firefox, Internet Explorer). The site was tested across multiple mobile and tablet devices.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+This site is hosted using Github pages, deployed directly from the master branch. The deployed site will update with new commits to the master branch.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+To run locally, you can clone this repository directly into the editor by pasting Git Clone https://github.com/jkasm88/Wedding-Page-Milestone-project-1.git into your terminal. 
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+All content in the our story page was written by me.
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from my personnel photos.
+- The embedded maps to the ceremony/reception were obtained from google maps.
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- FancyBox photo gallery was an idea from my mentor Ignatius. 
+- Popper and Bootstrap was used to incorporate my ideas of the site. 
