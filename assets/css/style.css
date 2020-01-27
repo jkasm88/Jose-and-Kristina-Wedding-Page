@@ -60,13 +60,11 @@ body {
 }
 
 .story-p {
-    color: #ffff;
+    color: #000000;
     font-weight: bold;
     width: 50%;
-    position: absolute;
-    top: 25%;
-    left: 25%;
-    overflow-y: scroll;
+    margin: auto;
+    padding: 15px;
 }
 
 .gallery-container {
@@ -82,7 +80,7 @@ body {
     position: relative;
     top: 0;
     bottom: 0;
-    height: 50vh;
+    height: 45vh;
     z-index: -10;
 }
 
@@ -197,7 +195,7 @@ footer {
     box-shadow: 0px 0px 25px 3px var(--gray);
     border-radius: 15px;
     padding: 10px;
-    width: 150px;
+    width: 250px;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -215,3 +213,5 @@ footer {
 .gallery-container figure {
     position: relative;
 }
+
+/*-------media queries----*/
