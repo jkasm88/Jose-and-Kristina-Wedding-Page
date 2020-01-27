@@ -60,6 +60,8 @@ Social links - All links will open a new tab and all have been manually tested t
 
 The site was tested across multiple browsers (Google Chrome, Safari, Firefox, Internet Explorer). The site was tested across multiple mobile and tablet devices.
 
+The criteria checklist was used to help develop the website. I had 3 of my friends test the website for functionality and to get their feedback.
+
 ## Deployment
 
 This site is hosted using Github pages, deployed directly from the master branch. The deployed site will update with new commits to the master branch.
