@@ -124,11 +124,12 @@ body {
 }
 
 #rsvp-pg {
-    background: url("../images/image10.jpeg") center no-repeat;
+    background: url("../images/image10.JPG") top no-repeat;
     background-size: cover;
     width: 100%;
     overflow: hidden;
     position: relative;
+    filter: grayscale(100%);
     top: 0;
     bottom: 0;
     height: 75vh;
