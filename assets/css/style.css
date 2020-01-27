@@ -21,7 +21,7 @@ body {
     font-size: 1.5em;
 }
 
-/*-------main-------*/
+/*-------rsvp.html main-------*/
 
 .story-section {
     background: url("../images/bg1.JPG") center center no-repeat;
@@ -59,6 +59,8 @@ body {
     background: #fff;
 }
 
+/*-------info.html main-------*/
+
 #details-info {
     background: url("../images/image11.jpeg") top center no-repeat;
     background-size: cover;
@@ -88,16 +90,18 @@ body {
     margin: auto;
 }
 
-.rsvp-heading {
-    color: #000000;
-    padding: 25px;
-    text-transform: uppercase;
-}
-
 .btn-rsvp {
     background: #000000;
     color: #ffff;
     padding: 10px 0;
+}
+
+/*-------rsvp.html main-------*/
+
+.rsvp-heading {
+    color: #000000;
+    padding: 25px;
+    text-transform: uppercase;
 }
 
 #rsvp-pg {
@@ -192,4 +196,4 @@ footer {
     position: relative;
 }
 
-/*-------media queries----*/
+
