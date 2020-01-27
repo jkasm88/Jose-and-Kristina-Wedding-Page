@@ -112,6 +112,8 @@ body {
 
 .rsvp-heading {
     color: #000000;
+    padding: 25px;
+    text-transform: uppercase;
 }
 
 .btn-rsvp {
@@ -139,19 +141,32 @@ label {
 .form-group {
     width: 60%;
     margin: 0 auto;
+    text-align: center;
+    padding: 10px;
 }
 
-.registry {
-    margin: 0 auto;
-    width: 50%;
-    padding: 10px;
+.registry-title {
+    padding: 15px;
     color: #000000;
+    display: flex;
+    justify-content: center;
+}
+
+.registry-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-rsvp-form {
+    display: flex;
+    justify-content: center;
 }
 
 /*-------footer-------*/
 
 footer {
     background: #fff;
+    padding: 25px;
 }
 
 /*-------fancy box----*/
